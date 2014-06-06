@@ -3,9 +3,7 @@
 <strong>Siga as Instruções abaixo: </strong><br>
 <ol>
 <li> Verifique se seu celular tem o sistema Operacional Android acima da versão 2.2</li>
-<li> Baixe do seu aparelho celular o seguinte arquivo <strong>CalculadoraDeRedeIP.apk</strong> pelo link: https://www.dropbox.com/s/x66ygsorafgcjqr/CalculadoraDeRedeIP.apk 
-
-rel="nofollow"> </li>
+<li> Baixe do seu aparelho celular o seguinte arquivo <strong>CalculadoraDeRedeIP.apk</strong> pelo link: https://www.dropbox.com/s/x66ygsorafgcjqr/CalculadoraDeRedeIP.apk</li>
 <li> Habilite a opção: Instalar Aplicativos de Terceiros.</li>
 <li> Salve-o em uma pasta</li>
 <li> Agora é só executar o aplicativo</li>
