@@ -1,6 +1,6 @@
 <h2>Guia de Instalação do Aplicativo Calculadora de Rede IP:</h2>
 
-<strong>Siga as Instruções abaixo: </strong><br>
+<h3>Siga as Instruções abaixo: </strong></h3>
 <ol>
 <li> Verifique se seu celular tem o sistema Operacional Android acima da versão 2.2</li>
 <li> Baixe do seu aparelho celular o seguinte arquivo <strong>CalculadoraDeRedeIP.apk</strong> pelo link: https://www.dropbox.com/s/x66ygsorafgcjqr/CalculadoraDeRedeIP.apk</li>
