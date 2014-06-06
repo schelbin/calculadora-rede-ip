@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Calculadora De Rede IP</string>
+    <string name="app_name">Calculadora de Rede IP</string>
     <string name="action_settings">Settings</string>
+    <string name="informe">Informe o IP e a Máscara:</string>
+    <string name="hint_example">Exemplo: 192.168.1.128/25</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="bt_limpar">Limpar</string>
+    <string name="clique_em">Clique em calcular para ver:</string>
+    <string name="mask">- Máscara</string>
+    <string name="net_id">- NetID</string>
+    <string name="broad">- Broadcast</string>
+    <string name="tipo">- Tipo de Rede</string>
+    <string name="total">- Total de IPs na rede</string>
+    <string name="title_activity_result">Resultado</string>
     <string name="hello_world">Hello world!</string>
+    <string name="t_mask">Máscara:</string>
+    <string name="t_net">NetID:</string>
+    <string name="t_broad">Broadcast:</string>
+    <string name="t_tipo">Tipo de Rede:</string>
+    <string name="bt_voltar">Voltar</string>
+    <string name="t_total">Total de IPs na rede:</string>
+    <string name="t_first">Primeiro endereço:</string>
+    <string name="t_last">Último endereço:</string>
+    <string name="first">- Primeiro endereço válido</string>
+    <string name="last">- Último endereço válido</string>
 
 </resources>
