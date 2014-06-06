@@ -4,7 +4,7 @@
     <string name="app_name">Calculadora de Rede IP</string>
     <string name="action_settings">Settings</string>
     <string name="informe">Informe o IP e a Máscara:</string>
-    <string name="hint_example">Exemplo: 192.168.1.128/25</string>
+    <string name="hint_example">Exemplo: 192.168.88.127/20</string>
     <string name="bt_calcular">Calcular</string>
     <string name="bt_limpar">Limpar</string>
     <string name="clique_em">Clique em calcular para ver:</string>
