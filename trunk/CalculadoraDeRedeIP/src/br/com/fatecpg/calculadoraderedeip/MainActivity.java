@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 
-	// Metodo que faz os c·lculos de rede
+	// Metodo que faz os c√°lculos de rede
 	public void calcular(View view) {
 		Validate val = new Validate();
 		Calculate calc = new Calculate();
@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
 		// Verifica se o ip esta completo, senao exibe alerta
 		if (textIP.length < 2) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("IP inv·lido, digite novamente")
+					.setMessage("IP inv√°lido, digite novamente")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 			return;
@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
 			if (particular)
 				intent.putExtra("TIPO", "Privado");
 			else
-				intent.putExtra("TIPO", "P˙blico");
+				intent.putExtra("TIPO", "P√∫blico");
 
 			// Inicia a Activity
 			startActivity(intent);
@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
 		// Verifica se o ip esta completo, senao exibe alerta
 		if (textIP.length < 2) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("IP inv·lido, digite novamente")
+					.setMessage("IP inv√°lido, digite novamente")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 			return;
@@ -110,7 +110,7 @@ public class MainActivity extends Activity {
 		// Verifica se o ip esta completo, senao exibe alerta
 		if (textIP.length < 2) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("IP inv·lido, digite novamente")
+					.setMessage("IP inv√°lido, digite novamente")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 			return;
@@ -121,11 +121,11 @@ public class MainActivity extends Activity {
 			int bit = Integer.parseInt(textIP[1]);
 			String msg = "";
 			if (calc.verifyValido(ip, bit) == 0) {
-				msg = "IP inv·lido, este IP È o Net Id";
+				msg = "IP inv√°lido, este IP √© o Net Id";
 			} else if (calc.verifyValido(ip, bit) == 1) {
-				msg = "IP inv·lido, este IP È o Broadcast";
+				msg = "IP inv√°lido, este IP √© o Broadcast";
 			} else {
-				msg = "IP v·lido";
+				msg = "IP v√°lido";
 			}
 			new AlertDialog.Builder(this).setTitle(ip).setMessage(msg)
 					.setPositiveButton("Voltar", null).show();
@@ -144,7 +144,7 @@ public class MainActivity extends Activity {
 		// Verifica se o ip esta completo, senao exibe alerta
 		if (textIP.length < 2) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("IP inv·lido, digite novamente")
+					.setMessage("IP inv√°lido, digite novamente")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 			return;
@@ -154,19 +154,19 @@ public class MainActivity extends Activity {
 			if (calc.isParticular(textIP[0])) {
 				new AlertDialog.Builder(this)
 						.setTitle(editIP.getText().toString())
-						.setMessage("Este IP È particular")
+						.setMessage("Este IP √© particular")
 						.setIcon(R.drawable.ic_ex)
 						.setPositiveButton("Voltar", null).show();
 			} else {
 				new AlertDialog.Builder(this)
 						.setTitle(editIP.getText().toString())
-						.setMessage("Este IP È p˙blico")
+						.setMessage("Este IP √© p√∫blico")
 						.setIcon(R.drawable.ic_ex)
 						.setPositiveButton("Voltar", null).show();
 			}
 		} else {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("Verifique se o IP est· correto.")
+					.setMessage("Verifique se o IP est√° correto.")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 		}
@@ -182,7 +182,7 @@ public class MainActivity extends Activity {
 		// Verifica se o ip esta completo, senao exibe alerta
 		if (textIP.length < 2) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("IP inv·lido, digite novamente")
+					.setMessage("IP inv√°lido, digite novamente")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 			return;
@@ -195,7 +195,7 @@ public class MainActivity extends Activity {
 					Integer.parseInt(textIP[1]));
 			new AlertDialog.Builder(this)
 					.setTitle("IPs na Rede")
-					.setMessage("Primeiro: " + primeiro + "\n⁄ltimo: " + ultimo)
+					.setMessage("Primeiro: " + primeiro + "\n√öltimo: " + ultimo)
 					.setPositiveButton("Voltar", null).show();
 		} else {
 			showErrors(textIP[0], textIP[1]);
@@ -208,12 +208,12 @@ public class MainActivity extends Activity {
 
 		if (!val.ipValidate(ip) && (!val.bitValidate(bit))) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("Verifique se o IP e o Bit est„o corretos.")
+					.setMessage("Verifique se o IP e o Bit est√£o corretos.")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 		} else if (!val.ipValidate(ip)) {
 			new AlertDialog.Builder(this).setTitle("Aviso")
-					.setMessage("Verifique se o IP est· correto.")
+					.setMessage("Verifique se o IP est√° correto.")
 					.setIcon(R.drawable.ic_ex)
 					.setPositiveButton("Voltar", null).show();
 		} else if (!val.bitValidate(bit)) {
